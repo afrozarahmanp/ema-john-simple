@@ -3,10 +3,49 @@
     grid-template-columns: 4fr 1fr;
 }
 
-.products-container{
+/* .products-container{
     display: grid;
     margin: 50px;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 45px;
     
-}
+} */
+@media only screen and (max-width: 600px) {
+
+    .products-container{
+        display: grid;
+        margin: 50px;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 45px;
+        
+    }
+  }
+
+  @media only screen and (min-width: 768px){
+    .products-container{
+        display: grid;
+        margin: 50px;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 45px;
+        
+    }
+  }
+
+  @media only screen and (min-width: 868px){
+    .products-container{
+        display: grid;
+        margin: 50px;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 45px;
+        
+    }
+  }
+  @media only screen and (min-width: 992px){
+    .products-container{
+        display: grid;
+        margin: 50px;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 45px;
+        
+    }
+  }
